@@ -565,31 +565,19 @@
 /*----------example----------*/
 .example{
 	left: 50%;
-   transform: translateX(-50%);
+    transform: translateX(-50%);
 	display: block;
 	width: 650px;
-	height: 300px;
-	margin-bottom: 300px;
 	margin-top: 150px;
 }
-.youtube{
+.control{
+	display: block;
+	width: 500px;
+	height: 300px;
 	margin-top: 50px;
     margin-bottom: 50px;
-}
-.video-container{
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-}
-.video-container iframe, 
-.video-container object, 
-.video-container embed {
-	position: absolute;
-	top: 0;left: 0;
-	width: 100%;
-	height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .example__title{
 	font-size: 35px;
@@ -635,20 +623,23 @@
 .example__content1{
 	right: 150px;
 }	
+.control{
+	width: 300px;
+	height: 230px;
+	margin-top: 40px;
+    margin-bottom: 30px;
+}
 }
 
 /*----------work----------*/
 .works{
 	left: 50%;
 	transform: translateX(-50%);
-	width: 70%;
-	/*width: 240px;*/
+	width: 330px;
 }
 .works__item{
 	width: 240px;
 	height: 400px;
-	/*left: 40%;*/
-
 }
 .works__border{
 	float: left;
@@ -718,9 +709,11 @@
 .owl-theme .owl-dots .active{
 	background-color: #af9c7b;
 }
-/*@media (max-width: 768px){*/
-
-
+@media (max-width: 768px){
+.works{
+	width: 330px;
+}
+}
 /*----------awards----------*/
 .awards{
 	display: block;
@@ -816,10 +809,12 @@
 	height: 40px;
 }
 .awards__big-text-title{
+	top: 15px;
 	font-size: 10px;
 	margin-bottom:3px; 
 }
 .awards__big-text-content{
+	top: 20px;
 	font-size: 10px;
 	line-height: 18px;
 	letter-spacing: 0px;
@@ -841,6 +836,7 @@
 	margin-bottom:3px;
 }
 .awards__small-text-content{
+	top: 5px;
 	font-size: 10px;
 	line-height: 18px;
 	letter-spacing: 0px;
