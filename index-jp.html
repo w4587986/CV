@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/plugins/loaders.min.css">
 
 </head>
-<body>
+<body style="overflow-x: hidden;">
 	<div class="wrapper">
 		<div class="loader">
 		<div class="loader-inner ball-pulse">
@@ -361,8 +361,10 @@
             <!-- start example -->
             <div class="example">
             	<font class="example__title wow fadeIn">翻訳</font>
-            	<div class="video-container">
-            	     <iframe width="560" height="315" src="https://www.youtube.com/embed/5qNXiU5q6vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            	<div class="youtube">
+	            	<div class="video-container">
+	            	     <iframe width="560" height="315" src="https://www.youtube.com/embed/5qNXiU5q6vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	                </div>
                 </div>
             	<div class="example__content wow fadeInRight">言語能力と</div>
             	<div class="example__content wow fadeInRight">ビデオエディターを操り、</div>
@@ -530,11 +532,10 @@
 	<script>
 		$(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-  	
   	center:true,
     loop:true,
     nav: true,
-    items: 5,
+    items: 1,
     navText: [],
     autoplay: true,
     autoplaySpeed: 500,
