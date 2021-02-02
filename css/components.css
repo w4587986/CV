@@ -1,4 +1,20 @@
-
+#loading {
+    position: fixed;
+    z-index: 400;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ebe9dd;
+    background-color: #FFF;
+}
+.load{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+}
 /* background */
 .bg{
 	position: fixed;
@@ -294,7 +310,7 @@
 
 @media (max-width: 768px){
 .hero__im{
-	margin-bottom: 40vh;
+	font-size: 35px;
 
 }
 }
@@ -583,7 +599,8 @@
 	font-size: 35px;
 	color: #ebe9dd;
 	background-color: #af9c7b;
-    padding: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
     letter-spacing: 5px;
     font-family: 'Noto Serif TC','Noto Serif JP', serif;
 
