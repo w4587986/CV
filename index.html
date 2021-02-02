@@ -11,23 +11,16 @@
 	<link rel="stylesheet" href="css/components.css">
 	<link rel="stylesheet" href="image/hello.css">
 	<!-- plugins -->
-	
 	<link rel="stylesheet" href="css/plugins/owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/plugins/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/plugins/jquery.fancybox.css">
-	<link rel="stylesheet" href="css/plugins/loaders.min.css">
 </head>
-<body style="overflow-x: hidden;">
-
-	<div class="loader">
-		<div class="loader-inner ball-pulse">
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
-	</div>
-	<div class="wrapper">
-		
+<body style="position:relative;">
+<div style="overflow-x: hidden;">
+	<!-- <div class="wrapper"> -->
+<div id="loading">
+    <img class="load" src="image/FhHRx.gif" alt="loading.." />
+</div> 		
 		<!-- start bg -->
 		<div class="bg">
 
@@ -511,18 +504,13 @@
 		</footer>
 		<!-- end footer -->
 
-	</div>
+	<!-- </div> -->
 	<!-- javascript -->
 	<script src="js/plugins/wow/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
 	<script src="js/plugins/jquery/jquery-3.5.1.min.js"></script>
-	<script src="js/plugins/loaders/loaders.css.js">
-		$(window).on("load", function() {
-  $(".loader").remove();
-});
-	</script>
 	<script src="js/plugins/fancybox/jquery.fancybox.min.js"></script>
 	<script src="js/plugins/owlcarousel/owl.carousel.js"></script>
 	<script>
@@ -555,6 +543,9 @@
 				}).scroll();
 			});
 	</script>
-	
+<script>
+        $("#loading").hide("slow",function(){$(this).css("display","none")});
+</script>
+</div>
 </body>
 </html>
