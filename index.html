@@ -14,12 +14,13 @@
 	<link rel="stylesheet" href="css/plugins/owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/plugins/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/plugins/jquery.fancybox.css">
-</head>
+
+
 <body style="position:relative;">
 <div style="overflow-x: hidden;">
+		
 		<!-- start bg -->
 		<div class="bg">
-
 			<img class="curcle"src="image/curcle.svg" alt="">
 			<img class="square"src="image/square.svg" alt="">
 			<img class="trangle"src="image/trangle.svg" alt="">
@@ -30,7 +31,15 @@
 			<img class="six1"src="image/6.svg" alt="">
 		</div>
 		<!-- end bg -->
-
+		<div class="loading-wrapper">
+		
+			<div class="loading la-ball-climbing-dot la-2x">
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			</div>
+		</div>
 		<!-- start header -->
 		<header class="header">
 			<div class="container">
@@ -537,6 +546,13 @@
 					}
 				}).scroll();
 			});
+	</script>
+	<script>
+		$(document).ready(function (){
+			setTimeout(function (){
+				$(".loading-wrapper").fadeOut(500);
+			}, 1000);
+		});
 	</script>
 </div>
 </body>
