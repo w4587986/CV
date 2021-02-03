@@ -549,11 +549,9 @@
 			});
 	</script>
 	<script>
-		$(document).ready(function (){
-			setTimeout(function (){
-				$(".loading-wrapper").fadeOut(500);
-			}, 1000);
-		});
+		$(window).on("load", function() {
+        $(".loading-wrapper").fadeOut(500);
+        });
 	</script>
 </div>
 </body>
