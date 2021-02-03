@@ -707,13 +707,23 @@
 }
 .school__text-right{
 	display: inline-block;
-	bottom: 55px;
 	text-align:left;
 	font-size: 20px;
     color: #af9c7b;
     letter-spacing: 5px;
     line-height: 35px;
     font-family: 'Noto Serif TC','Noto Serif JP', serif;
+}
+.school__text-right1{
+	display: block;
+	font-weight:700;
+	bottom:150px;
+
+}
+.school__text-right2{
+	display: block;
+	font-weight:700;
+	bottom:60px;
 }
 .school__text-bottom{
 	font-size: 20px;
@@ -744,13 +754,19 @@
 	left: 35px;
 	font-size: 13px;
 	line-height: 20px;
-	bottom: 112px;
 	letter-spacing: 4px;
 }
 .school__text-bottom{
 	font-size: 13px;
 	line-height: 20px;
 	letter-spacing: 3px;
+}
+.school__text-right1{
+	bottom:210px;
+
+}
+.school__text-right2{
+	bottom:80px;
 }
 }
 /*----------skill----------*/
