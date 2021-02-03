@@ -1088,6 +1088,7 @@
 /*----------awards----------*/
 .awards{
 	display: block;
+	margin-bottom: 200px;
 }
 .awards__big{
 	margin-top: 50px;
@@ -1136,7 +1137,7 @@
 	width: 450px;
 	left: 50%;
 	transform: translateX(-50%);
-	margin-bottom: 200px;
+	/*margin-bottom: 200px;*/
 }
 .awards__small-item-left{
 	width: 200px;
@@ -1287,3 +1288,4 @@
 	right: 0.5rem;
 }
 .toTop-arrow:focus {outline: none;}
+
