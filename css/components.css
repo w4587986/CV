@@ -1222,7 +1222,7 @@
 	bottom: 0;
 }
 .contact__item{
-	display: inline-block;
+	/*display: inline-block;*/
 	color: #ebe9dd;
 	text-align: center;
 	width: 600px;
