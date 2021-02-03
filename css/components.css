@@ -636,11 +636,11 @@
 
 /*----------about----------*/
 .hero{
-    padding-top: 20vh;
+ 
 }
 .hero__hello{
    display: inline-block;
-   padding-top: 20vh;
+   padding-top: 280px;
    text-align: center;
    left: 50%;
    transform: translateX(-50%)
@@ -652,7 +652,7 @@
     color: #d09d85;
     letter-spacing: 20px;
     text-align: center;   
-    margin-bottom: 25vh; 
+    margin-bottom: 200px; 
 }
 .hero__scroll{
     font-size: 10px;
@@ -674,7 +674,7 @@
 }
 .school{	
 	text-align: center; 
-	right: 3vh;
+	right: 25px;
 	margin-bottom: 100px;
 }
 .school__timeline-under{
@@ -720,8 +720,8 @@
     color: #af9c7b;
     letter-spacing: 5px;
     line-height: 35px;
-	left: 3vh;
-	margin-top: 0vh;
+	left: 25px;
+	margin-top: 0;
 	font-family: 'Noto Serif TC','Noto Serif JP', serif;
 }
 @media (max-width: 768px){
