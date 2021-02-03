@@ -1232,6 +1232,7 @@
 }
 .contact__text1{
 	display: inline-block;
+	color: #ebe9dd;
 	font-size: 16px; 
 	letter-spacing: 3px;
 	margin-right: 20px;
@@ -1289,7 +1290,3 @@
 	right: 0.5rem;
 }
 .toTop-arrow:focus {outline: none;}
-
-.ft{
-	height: 0;
-}
