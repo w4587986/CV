@@ -1290,3 +1290,6 @@
 }
 .toTop-arrow:focus {outline: none;}
 
+.ft{
+	height: 0;
+}
